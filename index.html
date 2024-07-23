@@ -1,32 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMALI MOVIE SHOP</title>
-<link rel="stylesheet" href="style.css">
+    <title>FlatDango</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1 class="heading">FLATIRON MOVIE THEARTER</h1>
-    <div id="cards">
-        <div class="cards">
-            <h1 class="title">THE GIANT GILA MONSTER</h1>
-            <img src="https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg" alt="Giant Gila Monster" style="width:150px" class="images">
-            <p>description: A giant Lizard terriorizes a rural Teas community and a heroic teenager attempts to destroy the creature</p>
-            <p class="capacity">capacity: 30</p>
-            <p class="runtime">runtime: "108"</p>
-            <p class="showtime">showtime: 04:00pm</p>
-            <p class="ticketssold">27</p>
-        </div>  
+    <h1> Flatiron Movie Theater</h1>
+    <div class="container">
+        <div class="sidebar">
+            <ul id="movieTitles"></ul>
+        </div>
+        <div class="content">
+            <div id="movieDetails"></div>
+        </div>
     </div>
-    <div id="memes">
-        <img
-        src ='http://localhost:3000/films' id="films"
-        style='width:150px;height:150px'>
-    </div>
-        <ul id="films-display"></ul> 
+    <script src="index.js"></script>
 </body>
-<script href="index.js"></script>
 </html>
